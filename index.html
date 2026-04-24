@@ -10,46 +10,42 @@
 
 <body>
     <header>
-        <nav>
-            <div class="mainNav">
-                <div class="navLeft">
-                    <p class="logo">Dr. Avisek</p>
-                    <p class="subLobo">Physiotherapist</p>
+        <section id="heroSection">
+            <nav>
+                <div class="mainNav">
+                    <div class="navLeft">
+                        <p class="logo">Dr. Avisek</p>
+                        <p class="subLobo">Physiotherapist</p>
+                    </div>
+                    <div class="navRight">
+                        <ul>
+                            <li><a href="#heroSection">Home</a></li>
+                            <li><a href="#ourTreatments">Services</a></li>
+                            <li><a href="#whyUs">Why Us</a></li>
+                            <li><a href="#about">About</a></li>
+
+                        </ul>
+                    </div>
+
                 </div>
-                <div class="navRight">
+                <div class="mobileNav">
+                    <span class="hamburger">
+                        <button class="l1 hBtn">|</button>
+                        <button class="l2 hBtn">|</button>
+                        <button class="l3 hBtn">|</button>
+                    </span>
+
+                </div>
+                <div class="resNav hide">
                     <ul>
                         <li><a href="#heroSection">Home</a></li>
                         <li><a href="#ourTreatments">Services</a></li>
                         <li><a href="#whyUs">Why Us</a></li>
                         <li><a href="#about">About</a></li>
-
                     </ul>
                 </div>
+            </nav>
 
-            </div>
-            <div class="mobileNav">
-                <span class="hamburger">
-                    <button class="l1 hBtn">|</button>
-                    <button class="l2 hBtn">|</button>
-                    <button class="l3 hBtn">|</button>
-                </span>
-
-            </div>
-            <div class="resNav hide">
-                <ul>
-                    <li><a href="#heroSection">Home</a></li>
-                    <li><a href="#ourTreatments">Services</a></li>
-                    <li><a href="#whyUs">Why Us</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <main>
-
-        <!-- Hero section -->
-        <section id="heroSection">
             <div class="mainContainer heroContainer box100">
                 <div class="heroLeft">
                     <h1 class="heading1">DR. AVISEK KAR, BEST PHYSIOTHERAPIST IN KOLKATA, WEST BENGAL</h1>
@@ -60,16 +56,22 @@
                     </a>
                 </div>
                 <div class="heroRight">
-                    <img decoding="async" src="images/img1.png" alt="dr. avisek kar physiotherapist" draggable="false">
+                    <img decoding="async" src="images/img2.png" alt="dr. avisek kar physiotherapist" draggable="false">
                 </div>
             </div>
+    </header>
+
+    <main>
+
+        <!-- Hero section -->
+
 
         </section>
 
         <!-- Our Treatments -->
         <section id="ourTreatments">
             <div class="mainContainer treatmentContainer">
-                <h2 class="heading2">Our Specialized Treatments</h2>
+                <h2 class="heading2">Our Services</h2>
                 <div class="treatCards"></div>
             </div>
         </section>
@@ -149,4 +151,5 @@
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
