@@ -4,7 +4,7 @@
 }
 
 :root {
-    --p-clr: #082f40;
+    --p-clr: #2A9D8F;
     --font-size: 18px;
     --font-clr: #fefefe;
 }
@@ -234,11 +234,11 @@ nav {
 
     background-color: #082f40;
 
-    background-image:
-        radial-gradient(at 100% 50%, hsla(168, 46%, 75%, 0.8) 0px, transparent 50%),
-        radial-gradient(at 0% 0%, hsla(188, 50%, 20%, 0.6) 0px, transparent 50%),
-        radial-gradient(at 80% 10%, hsla(170, 40%, 60%, 0.2) 0px, transparent 40%),
-        radial-gradient(at 20% 80%, hsla(190, 60%, 15%, 0.9) 0px, transparent 60%);
+    background: linear-gradient(135deg,
+            #1f7f75 0%,
+            #2A9D8F 40%,
+            #6FCFC4 75%,
+            #BFEDE7 100%);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,6 +260,9 @@ nav {
     padding-top: 0;
     padding-bottom: 0;
 }
+.heroLeft p{
+    color: rgba(255, 255, 255, 0.85);
+}
 
 .heroLeft .text:nth-of-type(1) {
     margin-top: 12px;
@@ -269,7 +272,7 @@ nav {
     padding: 10px 14px;
     /* background-color: var(--p-clr); */
     width: max-content;
-    color: #fefefe;
+    color: var(--font-clr);
     border-radius: 12px;
     text-decoration: none;
     margin-top: 24px;
@@ -279,14 +282,14 @@ nav {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.whatsappBtn:hover{
+.whatsappBtn:hover {
     background: rgba(255, 255, 255, 0.25);
-    border: 1px solid rgba(255, 255, 255, 0.8); 
-    box-shadow: 
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow:
         0 0 10px rgba(255, 255, 255, 0.4),
         0 0 20px rgba(168, 242, 230, 0.3),
         0 0 40px rgba(168, 242, 230, 0.1);
-    
+
     transform: scale(1.01);
     transition: 0.2s;
 }
