@@ -173,14 +173,13 @@ nav {
 
 .resNav {
     position: absolute;
-    background-color: #272c35;
     left: 0;
     right: 0;
     top: 86px;
     padding: 24px 50px;
     padding-right: 0px;
     margin: 0;
-    background: #fefefe;
+    background: #2A9D8F;
 }
 
 .resNav ul {
